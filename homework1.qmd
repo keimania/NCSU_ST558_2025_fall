@@ -1,0 +1,47 @@
+---
+title: "About data science."
+format: html
+editor: visual
+---
+
+# STEP3
+
+## First.
+
+1.  What do you think being a data scientist is about?
+
+-   I work as IT staff of financial company in Korea. Based on my current role, being a data scientist is about supporting a company's decision-making. A data scientist should deal with a lot of information (data) to find important clues. They use these clues to help a company make good decisions.
+
+2.  What differences/similarities do you see between data scientists and statisticians?
+
+-   **Similarities:** Both data scientists and statisticians are very good with numbers and data. They both work with data to find answers.
+-   **Differences:** I think their main goal is different.
+    -   **Statisticians** use very careful math and theory to explain why something happened. They focus more on theory than practical application.
+    -   **Data scientists** are more like **builders**. They use data to build a product or a tool. For example, they build the system that recommends videos on YouTube. They care most about making good predictions that are useful.
+
+3.  How do you view yourself in relation to these two areas?
+
+    With my background in Computer Science, my current IT role connects directly to **data science**. I build and develop our company's systems, which requires applying data-driven solutions to real-world problems.
+
+    However, as I move into a management position, my responsibilities will shift. I will need to make major strategic decisions for our IT and financial direction. To do that effectively, my decisions must be grounded in **statistics**, making that field increasingly important for my career.
+
+## Second.
+
+```{r}
+y <- density(iris$Petal.Width)
+```
+
+R code chunk to determine the class, type, and structure of the object y.
+
+```{r}
+class(y)
+typeof(y)
+str(y)
+```
+
+R code chunk that uses the plot function on y.
+
+```{r}
+#| echo: FALSE
+plot(y, main = "Density of Iris Petal Width")
+```
